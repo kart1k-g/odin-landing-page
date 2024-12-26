@@ -133,3 +133,50 @@
 .card> .img-subtext{
     text-align: center;
 }
+
+
+
+
+
+.quote-container{
+    background-color: #e5e7eb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-sizing: content-box; */
+    /* padding: 100px; */
+}
+
+.text-section{
+    height: 300px;
+    width: 1000px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+
+    padding: 0px 40px;
+}
+
+.quote{
+    color: #1f2937;
+}
+
+.quote> p{
+    font-size: 36px ;
+    font-style: italic;
+    font-weight: 100;
+}
+
+
+
+.author{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.author >span{
+    font-weight: bold;
+}
