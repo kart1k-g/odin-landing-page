@@ -180,3 +180,52 @@
 .author >span{
     font-weight: bold;
 }
+
+
+
+.call-to-action-container{
+    display: flex;
+    justify-content: center;
+
+    padding: 100px 0px;
+}
+
+.action-section{
+    background-color: #3883f6;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    width: 1200px;
+    height: 160px;
+}
+
+.left, 
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right button{
+    background-color: #3883f6;
+    border: 2px solid #f9f9f9;
+    color: #f9f9f9;
+    font-weight: bold;
+
+    width: 160px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+
+
+.left> p{
+    color: #e5e7eb;
+}
+.left> h1{
+    color: #f9f9f9;
+}
